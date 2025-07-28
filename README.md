@@ -9,28 +9,17 @@ fine_tuned_word2vec_sg(https://drive.google.com/drive/folders/12SO4M3lOdrmVBVFlz
 fine_tuned_word2vec_cbow (https://drive.google.com/drive/folders/1QxsVVTITmO3IWYf2tiVbJ7UVD5BNUb1v?usp=sharing)
 
 2. Predikcija prisutnosti emocije u riječima (korištenjem NRC Emotion Lexicona)
-- Klasifikacija algoritmom slučajnih šuma (iz sklearn biblioteke) u klase 0 (odsutnost određene emocije) i 1 (prisutnost određene emocije)
+- Klasifikacija algoritmom slučajnih šuma i dvosmjernim LSTM-om u klase 0 (odsutnost određene emocije) i 1 (prisutnost određene emocije)
 - Provedena je 5-struka unakrsna validacija i izračunate su mjere prosječne točnosti, preciznosti, odziva i F1 mjera
-- Kod možete pronaći u datoteci lexicon_emotion_prediction.ipynb
-
-- Klasifikacija dvosmjernim LSTM-om u klase 0 (odsutnost određene emocije) i 1 (prisutnost određene emocije)
-- Provedena je 5-struka unakrsna validacija i izračunate su mjere prosječne točnosti, preciznosti, odziva i F1 mjera
-- Kod možete pronaći u datoteci lexicon_emotion_prediction_RNN.ipynb 
+- Kod možete pronaći u datoteci lexicon_emotion_prediction.ipynb te lexicon_emotion_prediction_RNN.ipynb
 
 3. Predikcija prisutnosti emocije u rečenicama (podaci - GoEmotions Dataset)
-- Klasifikacija algoritmom slučajnih šuma (iz sklearn biblioteke) u klase 0 (odsutnost određene emocije) i 1 (prisutnost određene emocije)
+- Klasifikacija algoritmom slučajnih šuma i dvosmjernim LSTM-om u klase 0 (odsutnost određene emocije) i 1 (prisutnost određene emocije)
 - Provedena je 5-struka unakrsna validacija i izračunate su mjere prosječne točnosti, preciznosti, odziva i F1 mjera
-- Kod možete pronaći u datoteci sentence_emotion_prediction.ipynb
+- Kod možete pronaći u datoteci sentence_emotion_prediction.ipynb te sentence_emotion_prediction_RNN.ipynb 
 
-- Klasifikacija dvosmjernim LSTM-om u klase 0 (odsutnost određene emocije) i 1 (prisutnost određene emocije)
-- Provedena je 5-struka unakrsna validacija i izračunate su mjere prosječne točnosti, preciznosti, odziva i F1 mjera
-- Kod možete pronaći u datoteci sentence_emotion_prediction_RNN.ipynb 
 
 4. Predikcija prevladavajuće emocije u rečenicama (podaci - ISEAR Dataset)
-- Klasifikacija algoritmom slučajnih šuma (iz sklearn biblioteke) u klase 0-6 gdje svaki razred označava određenu emociju
+- Klasifikacija algoritmom slučajnih šuma i dvosmjernim LSTM-om u klase 0-6 gdje svaka klasa označava određenu emociju
 - Provedena je 5-struka unakrsna validacija i izračunate su mjere prosječne točnosti, preciznosti, odziva i F1 mjera
-- Kod možete pronaći u datoteci sentence_strongest_emotion_prediction.ipynb
-
-- Klasifikacija dvosmjernim LSTM-om u klase 0-6 gdje svaka klasa označava određenu emociju
-- Provedena je 5-struka unakrsna validacija i izračunate su mjere prosječne točnosti, preciznosti, odziva i F1 mjera
-- Kod možete pronaći u datoteci sentence_strongest_emotion_prediction_RNN.ipynb
+- Kod možete pronaći u datoteci sentence_strongest_emotion_prediction.ipynb te sentence_strongest_emotion_prediction_RNN.ipynb
