@@ -1,7 +1,7 @@
 Kratki opis do sad napravljenog:
-1. Fino podešavanje neuralnih jezičnih modela (koristeći Emotions Dataset)
-- word2vec modela (iz gensim biblioteke) koristeći skip gram (sg) i continuous bag of words (cbow) metode
-- Bert modela (iz transformers biblioteke) koristeći masked language modeling (mlm) metodu
+1. Fino podešavanje / treniranje neuralnih jezičnih modela (koristeći Emotions Dataset)
+- Treniranje Word2vec modela (iz gensim biblioteke) koristeći skip gram (sg) i continuous bag of words (cbow) metode
+- Fino podešavanje Bert modela (iz transformers biblioteke) koristeći masked language modeling (mlm) metodu
 - Kod za fino podešavanje možete pronaći u datotekama wor2vec_fine_tuning.ipynb
 i bert_fine_tuning.ipynb, a gotovi fino podešeni modeli su spremljeni u mapama na google disku; 
 fine_tuned_bert (https://drive.google.com/drive/folders/1WTtlzO-6Ep86G9FxrKKAlcS6s3Zj2e3k?usp=drive_link),
